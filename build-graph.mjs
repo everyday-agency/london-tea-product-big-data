@@ -11,7 +11,7 @@ import { parse } from "csv-parse/sync";
  */
 
 // ----------- CLI ARGS -----------
-const [, , INPUT = "products.csv", OUTPUT = "graph.html"] = process.argv;
+const [, , INPUT = "products.csv", OUTPUT = "index.html"] = process.argv;
 
 // ----------- Helpers -----------
 const normalize = (s) => (s ?? "").toString().trim();
