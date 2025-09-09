@@ -1,0 +1,11 @@
+{
+  "name": "shopify-product-tag-graph",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node build-graph.mjs \"./London-Tea-export-Products - products_export_1.csv\" graph.html"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.6"
+  }
+}
